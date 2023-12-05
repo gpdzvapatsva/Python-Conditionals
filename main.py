@@ -11,6 +11,8 @@ elif driver_speed > average_speed and over_limit < 12: # If the speed is over th
     print("The accumulated demerit points are: \n" + str (over_limit))
 else:
     print(" It is time to go to jail!") #However, if the points are over 12, this is the feedback.
+    answer=10+12
+    print(answer);
 
 
 
